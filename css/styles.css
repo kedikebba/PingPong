@@ -2,8 +2,12 @@ body{
   width: 75%;
   border: 2px solid black;
   margin: auto;
+  height: 1000px;;
 }
 
 #headerColumn{
+text-align: center;
+background-color: skyblue;
+width: 82.5%;
 
 }
