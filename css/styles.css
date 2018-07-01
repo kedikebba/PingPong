@@ -8,6 +8,12 @@ body{
 #headerColumn{
 text-align: center;
 background-color: skyblue;
-width: 82.5%;
+width: 80.0%;
+margin-left: 10px;
+margin-right: 10px;
+height: 100px;
 
+}
+#pingPong-form{
+  width: 200px;
 }
