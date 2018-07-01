@@ -37,20 +37,20 @@
 
 
 
-var userInput;
+// var userInput;
 // userInput = parseInt(userInput);
 $(document).ready(function() {
       $("pingPong-form").submit(function(event) {
           event.preventDefault();
-          userInput = parseInt($("#number-input").val());
+          var userInput = parseInt($("#number-input").val());
           for (var generatedNumbers = 1; generatedNumbers <= userInput; generatedNumbers++) {
-            if (generatedNumbers % 3 === 0) {
+            if (generatedNumbers%3 === 0) {
               // $("#generatedNumbers").append("<li>Ping</li>")
               console.log("Ping");
-            } else if (generatedNumbers % 5 === 0) {
+            } else if (generatedNumbers%5 === 0) {
               // $("#generatedNumbers").append("<li>Pong</li>")
               console.log("Pong");
-            } else if (generatedNumbers % 15 === 0) {
+            } else if (generatedNumbers%15 === 0) {
               // $("#generatedNumbers").append("<li>PingPong</li>")
               console.log("PingPong");
             } else {
