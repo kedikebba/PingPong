@@ -1,17 +1,19 @@
-# MY PORTFOLIO
+# PING PONG GAME
 
-#### This is my Portfolio Landing Page
+#### This is my Third Independent Project Week 3
 #### By **Kedi**
 
 ## Description
-This is a a portfolio landing page, my first Independent Project at Moringa School. It is built on;
+This is the third Independent Project at Moringa School. It is built on;
 * HTML
 * CSS
+* JavaScript
+* JQuery
 
 ## Instructions;
 1. Install git, atom on either a linux machine or Windows Machine.
 2. Clone this repo.
-3. Look for index.html in the repo, from your local machine and open it.
+3. Look for index.html in the repo, from your local machine and open it. Enjoy PLaying
 
 ## Specifications.
 1. It can count upto the provided Number ;
