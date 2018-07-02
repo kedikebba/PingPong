@@ -6,10 +6,10 @@ $(document).ready(function() {
   $("#pingPong-form").submit(function(event) {
     event.preventDefault();
     var userInput = parseInt($("#number-input").val());
+    $("#generatedNumbers").empty();
     for (var generatedNumbers = 1; generatedNumbers <= userInput; generatedNumbers++) {
       if (generatedNumbers % 3 === 0) {
         $("#generatedNumbers").append("<li>Ping</li>")
-        $(#generatedNumbers).empty();
       } else if (generatedNumbers % 5 === 0) {
         $("#generatedNumbers").append("<li>Pong</li>")
       } else if (generatedNumbers % 15 === 0) {
