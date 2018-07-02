@@ -38,7 +38,7 @@ This is the third Independent Project at Moringa School. It is built on;
 
 
 ## Link to Page
-https://kedikebba.github.io/pingpong/
+https://kedikebba.github.io/PingPong/
 
 ## Support and contact details
 Email me on kebbakedi@gmail.com
